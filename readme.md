@@ -1,11 +1,12 @@
 ### 1.基本命令
 - git add 将工作区内容提交到暂存区
-- git commit -<file> -m <msg> 提交文件
+- git commit -f <file> -m <msg> 提交文件
 - git status
 - git log 本次工作历史
 - git reset --hard <version> 回滚
 - git reflog 仓库操作历史
 - git checkout -- <file> 丢弃工作区的更改
+- git rm <file> 删除文件
 ### 2.远程
 - git remote add origin git@server-name:path/repo-name.git  关联一个远程库
 - git push -u origin master 第一次推送master分支的所有内容
