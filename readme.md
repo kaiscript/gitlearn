@@ -1,5 +1,6 @@
 1.基本命令
 ```
+- git init #初始化git配置
 - git add #将工作区内容提交到暂存区
 - git commit -f <file> -m <msg> #提交文件
 - git status
