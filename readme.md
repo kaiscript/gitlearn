@@ -24,9 +24,10 @@
 - $ git branch dev
 - $ git checkout dev
 ```
+```
   #第一次push分支时,命令如下：
 - $ git push --set-upstream origin <branch-name>
-
+```
 ---
 ```
 - git branch #查看当前分支
