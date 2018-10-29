@@ -24,6 +24,9 @@
 - $ git branch dev
 - $ git checkout dev
 ```
+  #第一次push分支时,命令如下：
+- $ git push --set-upstream origin <branch-name>
+
 ---
 ```
 - git branch #查看当前分支
@@ -31,6 +34,8 @@
 - git checkout <name> #切换分支
 - git checkout -b <name>  #创建+切换分支
 - git merge <name>  #合并到dev分支
+  #merge分支时需要先切到“被合并”的分支，再merge，代表merge <name> 分支到当前分支
+  
 - git branch -d <name> #删除分支
 - git merge --no-ff -m <msg> dev  
   #禁用Fast forward模式，删除分支后不会丢失分支信息
